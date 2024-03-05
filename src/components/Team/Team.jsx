@@ -25,7 +25,7 @@ const Team = () => {
         className="w-[90%] lg:w-[60%] mx-auto bg-blue-950/60 text-white mt-[3rem] p-4
         text-center flex flex-col gap-5 rounded-lg">
         <h1 className="text-2xl lg:text-5xl capitalize">our Studio location</h1>
-        <p className="2xl:text-lg">
+        <p className="2xl:text-lg font-bold text-lg">
           Near Maa Tara Petrol Pump , Gandhajore Main Road Chira Chas.
           Email Adress: multimediapari01@gmail.com
         </p>
