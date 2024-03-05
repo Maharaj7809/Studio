@@ -18,11 +18,14 @@ const About = () => {
         text-center md:text-left text-sm 2xl:text-xl">
         <div className="flex-1 flex flex-col gap-2">
           <p>
-          At our studio, we are driven by a passion for creativity and a commitment to excellence. With years of collective experience, our talented team brings together diverse skills and perspectives to deliver exceptional results.
+         Indoor-Out PhotoShoot , Cinametic Video , Wedding Pre-Wedding, Commercial Photography, Drone Shoot , Album Designing Live Telecast , Event Photography, Photography, Videography, Photo Editing, Video Editing, Photography, Videography, Photo Editing.
+          {/* At our studio, we are driven by a passion for creativity and a commitment to excellence. With years of collective experience, our talented team brings together diverse skills and perspectives to deliver exceptional results. */}
           </p>
           <p>
-          Founded on the principles of innovation and collaboration, we pride ourselves on creating immersive experiences that captivate audiences and exceed expectations. From concept to execution, we thrive on pushing the boundaries of design and technology.
-!
+          {/* Founded on the principles of innovation and collaboration, we pride ourselves on creating immersive experiences that captivate audiences and exceed expectations. From concept to execution, we thrive on pushing the boundaries of design and technology. */}
+
+         We Accept All types of Photography , VideoGraphy Professional Works , VideoRecording, Prewedding Shoot , Drone Camera ,Led Tv Live Telecast , Birthday Party Shoot
+
           </p>
         </div>
         <div className="flex-1 flex flex-col gap-5">

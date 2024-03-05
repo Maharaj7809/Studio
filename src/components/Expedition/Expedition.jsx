@@ -1,5 +1,5 @@
 import React, { useLayoutEffect, useRef } from "react";
-import logo from "../images/logo.png";
+import logo from "../images/plog.png";
 import cloud from "../images/cloud.png";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -29,7 +29,7 @@ const Expedition = () => {
         lg:mt-28 flex items-end justify-center relative overflow-hidden md:overflow-visible">
         <div className="text-white pb-2 text-center absolute bottom-6 md:bottom-0 !z-50 py-[7rem]">
           <img
-            className="w-[8rem] md:w-[12rem] 2xl:w-[16rem] mx-auto"
+            className="w-[8rem] md:w-[40rem] 2xl:w-[16rem] mx-auto"
             src={logo}
             alt="logoImg"
           />

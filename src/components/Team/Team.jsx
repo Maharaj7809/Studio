@@ -26,11 +26,8 @@ const Team = () => {
         text-center flex flex-col gap-5 rounded-lg">
         <h1 className="text-2xl lg:text-5xl capitalize">our Studio location</h1>
         <p className="2xl:text-lg">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio rerum
-          nesciunt magnam nobis atque? Error nulla sapiente, ut voluptatum ipsa
-          assumenda ea consequatur eaque voluptatem dolores sed enim repellendus
-          possimus suscipit quia quasi magni placeat, provident ab id? Cumque,
-          blanditiis.
+          Near Maa Tara Petrol Pump , Gandhajore Main Road Chira Chas.
+          Email Adress: multimediapari01@gmail.com
         </p>
         <p className="text-sm 2xl:text-lg">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio rerum
