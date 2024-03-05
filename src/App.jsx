@@ -5,6 +5,7 @@ import Expedition from "./components/Expedition/Expedition";
 import Gallery from "./components/Gallery/Gallery";
 import Team from "./components/Team/Team";
 import { AiOutlineArrowUp } from "react-icons/ai";
+import Contact from "./components/Contact/Contact";
 
 const App = () => {
   const [showArrow, setShowArrow] = useState(false);
@@ -32,7 +33,7 @@ const App = () => {
       <About />
       <Expedition />
       <Team />
-     
+     <Contact />
 
       <div
         className={`fixed right-10 bottom-20 transition-all duration-500 
