@@ -1,7 +1,7 @@
 import React from "react";
 import log2 from "../images/log3.png";
 import { motion as m } from "framer-motion";
-// import Video from "../images/video.mp4";
+
 import HeadAnimation from "../Animation/HeadAnimation";
 
 const Banner = () => {
