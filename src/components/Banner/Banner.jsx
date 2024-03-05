@@ -1,7 +1,7 @@
 import React from "react";
 import log2 from "../images/log3.png";
 import { motion as m } from "framer-motion";
-import Video from "../images/video.mp4";
+// import Video from "../images/video.mp4";
 import HeadAnimation from "../Animation/HeadAnimation";
 
 const Banner = () => {
@@ -13,7 +13,7 @@ const Banner = () => {
 
   <div className="absolute inset-0 z-0">
     <video autoPlay loop muted  className="w-full h-full object-cover"  >
-      <source src={Video} type="video/mp4" />
+      <source src="./Video.mp4" type="video/mp4" />
       
     </video>
   </div>
