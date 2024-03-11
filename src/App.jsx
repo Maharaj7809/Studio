@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import About from "./components/About/About";
+
 import Banner from "./components/Banner/Banner";
 import Expedition from "./components/Expedition/Expedition";
 import Gallery from "./components/Gallery/Gallery";

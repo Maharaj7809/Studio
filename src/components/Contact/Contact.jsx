@@ -142,17 +142,17 @@ const Contact = () => {
 
 
   return (
-    <Container style={{backgroundImage: 'url(https://i.ibb.co/R4S9BLQ/picture1.png)', backgroundSize: 'cover',color:'white'}}>
-  <Wrapper style={{fontWeight: 'bold'}}> {/* Adding fontWeight here */}
-    <Title style={{fontWeight: 'bold'}}>Contact Us</Title> {/* Adding fontWeight here */}
+    <Container style={{backgroundImage: 'url()', backgroundSize: 'cover',backgroundColor:'rgba(0,0,20,0.8)',color:'white'}}>
+  <Wrapper style={{fontWeight: 'bold'}}>
+    <Title style={{fontWeight: 'bold'}}>Contact Us</Title> 
     <Desc style={{fontWeight: 'bold'}}>Feel free to reach out to Us for any Wedding and Photography Works! Dial +918210068191 or +919931215891</Desc> {/* Adding fontWeight here */}
     <ContactForm ref={form} onSubmit={handleSubmit}>
-      <ContactTitle style={{fontWeight: 'bold'}}>Email US 🚀</ContactTitle> {/* Adding fontWeight here */}
-      <ContactInput style={{fontWeight: 'bold'}} placeholder="Your Email" name="from_email" /> {/* Adding fontWeight here */}
-      <ContactInput style={{fontWeight: 'bold'}} placeholder="Your Name" name="from_name" /> {/* Adding fontWeight here */}
-      <ContactInput style={{fontWeight: 'bold'}} placeholder="Subject" name="subject" /> {/* Adding fontWeight here */}
-      <ContactInputMessage style={{fontWeight: 'bold'}} placeholder="Message" rows="4" name="message" /> {/* Adding fontWeight here */}
-      <ContactButton style={{fontWeight: 'bold'}} type="submit" value="Send" /> {/* Adding fontWeight here */}
+      <ContactTitle style={{fontWeight: 'bold'}}>Email US 🚀</ContactTitle> 
+      <ContactInput style={{fontWeight: 'bold'}} placeholder="Your Email" name="from_email" /> 
+      <ContactInput style={{fontWeight: 'bold'}} placeholder="Your Name" name="from_name" /> 
+      <ContactInput style={{fontWeight: 'bold'}} placeholder="Subject" name="subject" /> 
+      <ContactInputMessage style={{fontWeight: 'bold'}} placeholder="Message" rows="4" name="message" /> 
+      <ContactButton style={{fontWeight: 'bold'}} type="submit" value="Send" /> 
     </ContactForm>
     <Snackbar
       open={open}
